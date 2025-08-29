@@ -24,7 +24,6 @@ void sort_matrix(int **matrix, int n) {
     // TODO: Implementa aquí el algoritmo.
     // Necesitarás el método de inserción,
     // pero recuerda aplicar la regla de mover toda la columna.
-    void sort_matrix(int **matrix, int n) {
     int k, key;
     for (int i = 0; i < n; i++) {
         for (int j = 1; j < n; j++) {
@@ -38,7 +37,6 @@ void sort_matrix(int **matrix, int n) {
             matrix[i][k + 1] = key;
         }
     }
-}
 }
 
 int main() {
